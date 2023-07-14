@@ -10,7 +10,7 @@ import {
   import { yupResolver } from '@hookform/resolvers/yup';
   import * as yup from 'yup';
   import { useDispatch, useSelector } from 'react-redux';
-  import { addContact } from '../redux/contactsSlice';
+  import { addContact } from '../../redux/contactsSlice';
   
   export const ContactForm = () => {
     const nameID = nanoid();
